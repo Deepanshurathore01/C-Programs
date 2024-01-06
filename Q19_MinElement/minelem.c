@@ -1,15 +1,7 @@
 #include<stdio.h>
+#include<conio.h>
 
-int minElement(int arr[],int n){
-  int min = arr[0];
-  for(int i=0;i<=n;i++){
-    if(arr[i]<min)
-    {
-      min =arr[i];
-    }
-  }
-  return min;
-}
+int minElement(int arr[],int n);
 
 void main(){
   int n,i,minelem;
@@ -24,4 +16,15 @@ void main(){
   minelem = minElement(arr,n);
   printf("The minimum element in an array is : %d",minelem);
 
+// getch();
+}
+int minElement(int arr[],int n){
+  int min = arr[0];
+  for(int i=1;i<n;i++){
+    if(arr[i]<min)
+    {
+      min =arr[i];
+    }
+  }
+  return min;
 }
