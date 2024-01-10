@@ -64,7 +64,7 @@ void concat(){
 void rev()
 {
   
-  char s[10] ="deepanshu";
+  char s[10] ="kirti jat";
   printf("\nreverse function called : "); 
   strrev(s);
   printf("\nthe rev of string is %s",s);
