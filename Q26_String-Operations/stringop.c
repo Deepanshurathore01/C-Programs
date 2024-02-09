@@ -31,7 +31,7 @@ void getputs(){
 
 void compare(){
   char s1[50] ="Geeks";
-  char s2[50] ="Geeks";
+  char s2[50] ="Geek6";
   int result = strcmp(s1,s2);
   printf("\n\n compare function called  function called :\n "); 
   printf("the comparrision of s1 and s2 :%d\n\n",result);
